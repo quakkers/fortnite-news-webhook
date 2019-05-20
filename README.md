@@ -1,11 +1,11 @@
 # Fortnite News Webhook
 Gets the news via EpicGames API and posts it into a Discord Webhook
 
-#Requirements
+# REQUIREMENTS
 NodeJS (https://nodejs.org/en/)
 Batch File (in same directory)
 
-#HOW TO INSTALL:
+# HOW TO INSTALL:
 Run the following command via command line:
 ```
 npm i request request-promise
