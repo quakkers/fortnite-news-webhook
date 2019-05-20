@@ -1,7 +1,7 @@
-const request = require("request-promise");
+﻿const request = require("request-promise");
 const fs = require("fs");
 
-let webhook = "https://discordapp.com/api/webhooks/580057388606816266/2GNuFh5GzSo8qudCiHZS-8bS07Yarb2LsXx8s3suDKqZ6Avr08OzBA1kpxPEN7h3vgUk";
+let webhook = "WEBHOOK";
 
 setInterval(() => {
 
