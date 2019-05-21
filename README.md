@@ -1,26 +1,31 @@
-# Fortnite News Webhook
-Gets the news via EpicGames API and posts it into a Discord Webhook
+# INFO
+This tool was made by quakkers (https://twitter.com/quakkerss) to automatically post new Fortnite news to a Discord webhook. It makes a request to EpicGames API for News every 1000ms (Configurable)
 
 # REQUIREMENTS
-NodeJS (https://nodejs.org/en/),
-Batch File (in same directory)
+You will need NodeJS (https://nodejs.org)<br>
+Empty .bat file in the same directory.
 
-# HOW TO INSTALL:
-Run the following command via command line:
+# HOW TO INSTALL
+Download this repo<br>
+<br>
+1) Run the following command via command line<br>
 ```
-npm i request request-promise
+npm i request-promise request
 ```
-
-Go to index.js and change 
-```let webhook = "WEBHOOK URL" ``` to ```let webhook = "your webhook"```
-
-Put the following text intoa .bat file
-
+<br>
+2) Edit config.json and put your webhook URL in<br>
+Example:
+```{
+	"webhook": "https://discordapp.com/api/webhooks/1/1_"
+	"updateInterval": "1000"
+}```
+<br>
+3) Put the following text into the new .bat file you made<br>
 ```
 @echo off
-node .
+node index.js
 pause
 ```
 
-# HOW TO RUN:
-Run the .bat file that you previously made and wait
+# HOW TO RUN
+Run the .bat file you created earlier
