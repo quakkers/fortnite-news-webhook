@@ -12,10 +12,8 @@ Download this repo
 ```
 npm i request-promise request
 ```
-<br>
 2) Edit config.json and put your webhook URL in<br>
-<br>
-3) Put the following text into the new .bat file you made<br>
+3) Put the following text into the new .bat file you made
 ```
 @echo off
 node index.js
