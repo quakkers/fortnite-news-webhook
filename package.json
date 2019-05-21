@@ -1,0 +1,16 @@
+{
+  "name": "fortnite-news-webhook",
+  "version": "2.0",
+  "description": "Gets news from Fortnite API endpoints and posts it via a Webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "quakkers",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}

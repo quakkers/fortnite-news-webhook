@@ -1,29 +1,3 @@
 [
-   {
-      "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v901/WicksBountyLTM-1024x512-593e3d8c190f0f1bdbc04ab82788638e86215c03.jpg",
-      "hidden": false,
-      "_type": "CommonUI Simple Message Base",
-      "adspace": "LEAVING SOON!",
-      "title": "Tick Tock, Mr. Wick",
-      "body": "The Wick’s Bounty LTM is leaving soon!",
-      "spotlight": false
-   },
-   {
-      "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v901/TacticalAssaultRifle-1024x512-50d6898c9bd1e6677bc4dd5d6273985330a89f74.jpg",
-      "hidden": false,
-      "_type": "CommonUI Simple Message Base",
-      "adspace": "",
-      "title": "Tactical Assault Rifle",
-      "body": "This robust and precise assault rifle is the ideal option for tight quarters.",
-      "spotlight": false
-   },
-   {
-      "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v901/JohnWickSet-1024x512-0212575476e6ef1d41b5a6693a4e1df9b34c147e.jpg",
-      "hidden": false,
-      "_type": "CommonUI Simple Message Base",
-      "adspace": "LEAVING SOON!",
-      "title": "The Grace Period Is Over",
-      "body": "The John Wick Set is leaving the Item Shop soon.",
-      "spotlight": false
-   }
+
 ]

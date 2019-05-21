@@ -1,8 +1,6 @@
 ﻿const request = require("request-promise");
 const fs = require("fs");
 
-let webhook = "WEBHOOK";
-
 setInterval(() => {
 
     request({
@@ -16,10 +14,9 @@ setInterval(() => {
             let title = newsJSON.find(element => element.title === news.title);
 
             if(!title) {
-                
-                
+             
                 request({
-                    uri: webhook,
+                    uri: config.webhook,
                     method: "POST",
                     headers: {
                         "Content-Type": "application/x-www-form-urlencoded"
