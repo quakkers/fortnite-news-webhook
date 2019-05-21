@@ -13,6 +13,13 @@ Download this repo
 npm i request-promise request
 ```
 2) Edit config.json and put your webhook URL in<br>
+Example:
+```
+{
+	"webhook": "https://discordapp.com/api/webhooks/1/1_"
+	"updateInterval": "1000"
+}
+```
 3) Put the following text into the new .bat file you made
 ```
 @echo off
