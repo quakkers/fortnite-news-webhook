@@ -6,7 +6,7 @@ You will need NodeJS (https://nodejs.org)<br>
 Empty .bat file in the same directory.
 
 # HOW TO INSTALL
-Download this repo<br>
+Download this repo
 <br>
 1) Run the following command via command line<br>
 ```
@@ -15,11 +15,13 @@ npm i request-promise request
 <br>
 2) Edit config.json and put your webhook URL in<br>
 Example:<br>
-```{
+```
+{
 	"webhook": "https://discordapp.com/api/webhooks/1/1_"
 	"updateInterval": "1000"
 }
 ```
+<br>
 3) Put the following text into the new .bat file you made<br>
 ```
 @echo off
